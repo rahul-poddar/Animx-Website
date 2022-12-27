@@ -1,0 +1,400 @@
+/* navbar section start */
+#top_nav {
+    background-color: black;
+    padding: 0px 8%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding-left: 25px;
+}
+
+.navbar-toggler {
+    color: black !important;
+    border: 1px solid #00bec9;
+}
+
+.bi {
+    color: #00bec9;
+    font-size: 25px;
+}
+
+#searchbox {
+    background-color: #daac00;
+    color: white;
+    border: 0px;
+    border-radius: 0;
+    position: relative;
+    left: 45px;
+    box-shadow: 5px 10px 11px 0px #00000021;
+}
+
+#searchbox::placeholder {
+    color: white;
+}
+
+#searchbtn {
+    position: relative;
+    z-index: 99;
+    background-color: #00bec9;
+    border: 0px;
+    border-radius: 0;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    #searchform {
+        margin-bottom: 30px;
+        margin-top: 20px;
+        position: relative;
+        left: -20px;
+    }
+
+    .navbar-brand .img-fluid {
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #searchform {
+        margin-bottom: 30px;
+        margin-top: 20px;
+        position: relative;
+        left: -20px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #top_nav {
+        padding: 0 4%;
+
+    }
+
+    .navbar-brand .img-fluid {
+        width: 180px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    #top_nav {
+        padding: 0 4%;
+
+    }
+
+    .navbar-brand .img-fluid {
+        width: 150px;
+    }
+}
+
+/* navbar section end */
+
+
+/* banner section start*/
+#banner {
+    background-color: #fcc302;
+    margin-top: 40px;
+    padding-bottom: 80px;
+}
+
+#bannertext h1 {
+    color: white;
+    font-size: 60px;
+    margin-top: 120px;
+}
+
+#bannertext p {
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+#containerimg {
+    padding-top: 40px;
+}
+
+#banner-btn-1 {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+#banner-btn-1:hover {
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+}
+
+#banner-btn-2 {
+    color: white;
+    border: 2px solid white;
+    margin-left: 25px;
+}
+
+#banner-btn-2:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    margin-left: 25px;
+}
+
+@media only screen and (max-width: 1300px) {
+    #bannertext h1 {
+        font-size: 50px;
+    }
+
+    #bannerimg {
+        padding-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    #bannertext h1 {
+        font-size: 40px;
+    }
+
+    #bannerimg {
+        padding-top: 80px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #bannertext h1 {
+        font-size: 30px;
+    }
+
+    #bannertext p {
+        font-size: 15px;
+    }
+
+    #banner-btn-2 {
+        margin-left: 10px;
+    }
+}
+
+/* banner section end*/
+
+/* service section start*/
+#servicetext {
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+#service-btn {
+    background-color: #00bec9;
+    color: white;
+    border: 2px solid #00bec9;
+}
+
+#service-btn:hover {
+    background-color: #00bec9;
+    color: white;
+    border: 2px solid white;
+    opacity: 0.9;
+}
+
+#serviceimg {
+    padding: 5%;
+    opacity: 0.9;
+}
+
+#serviceimg .img-fluid {
+    border-left: 10px solid #fcc302;
+    border-bottom: 10px solid #fcc302;
+}
+
+@media only screen and (max-width: 1024px) {
+    #serviceimg {
+        padding-top: 10%;
+    }
+}
+
+/* service section end*/
+
+/* counter section start*/
+#countersection {
+    margin-top: 20px;
+    background-image: url(../images/10.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#countersection::after {
+    position: absolute;
+    content: "";
+    background-color: #fcc302;
+    height: 100%;
+    width: 100%;
+    display: block;
+    opacity: 0.8;
+}
+
+#counterimg {
+    position: relative;
+    width: 20%;
+    height: 40%;
+    z-index: 99;
+}
+
+h3 {
+    position: relative;
+    z-index: 99;
+}
+
+@media only screen and (max-width: 1050px) {
+    #counterimg {
+        width: 35%;
+    }
+}
+
+@media only screen and (max-width: 775px) {
+    #countersection {
+        background-position: center;
+    }
+
+    #counterimg {
+        width: 10%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #countersection {
+        background-position: center;
+    }
+
+    #counterimg {
+        width: 15%;
+        height: 40%;
+    }
+}
+
+/* counter section end*/
+
+/* blog section start */
+#blog {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#blogtitle {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#blogpara {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.blogdetails {
+    padding: 15px;
+    border: 1px solid rgb(185, 185, 185);
+    border-top: none;
+}
+
+.blogdate,
+.bloglink {
+    color: #00bec9;
+    text-decoration: none;
+}
+
+.bloglink:hover {
+    color: #00bec9;
+    opacity: 0.5;
+}
+
+/* blog section end */
+
+
+/* footer section start */
+#footer {
+    background-color: black;
+    padding-bottom: 50px;
+    color: #fcc302;
+}
+
+#footer h4 {
+    margin-top: 50px;
+}
+
+#footer a {
+    color: white;
+    text-decoration: none;
+}
+
+#footerform {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#footersearchbox {
+    background-color: #fcc302;
+    color: white;
+    border: 0px;
+    border-radius: 0;
+    position: relative;
+    left: 45px;
+    box-shadow: 5px 10px 11px 0px #00000021;
+}
+
+#footersearchbox::placeholder {
+    color: white;
+}
+
+#footersubmitbtn {
+    position: relative;
+    z-index: 99;
+    background-color: #00bec9;
+    border: 0px;
+    border-radius: 0;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.footerlink a:hover {
+    background-color: #daac00;
+    border-radius: 100%;
+    padding-bottom: 5px;
+}
+
+@media only screen and (max-width: 1024px) {
+    #footersubmitbtn {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #footersubmitbtn {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #footersubmitbtn {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 360px) {
+    #footersubmitbtn {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    #footersubmitbtn {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+/* footer section end */
