@@ -1,7 +1,7 @@
 {
-    "name": "Animx Website",
-    "short_name": "Animx Website",
-    "background_color": "#fcc302",
+    "name": "Animx",
+    "short_name": "Animx",
+    "background_color": "#ffffff",
     "theme_color": "#00bec9",
     "display": "standalone",
     "scope": "./",
