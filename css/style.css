@@ -312,7 +312,7 @@ h3 {
 /* footer section start */
 #footer {
     background-color: black;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
     color: #fcc302;
 }
 
@@ -325,7 +325,7 @@ h3 {
     text-decoration: none;
 }
 
-#footer a:hover {
+#footer .tab:hover {
     color: whitesmoke;
     opacity: 0.6;
 }
@@ -403,3 +403,22 @@ h3 {
 }
 
 /* footer section end */
+
+/* Back to top button start*/
+#btn-back-to-top {
+    position: fixed;
+    bottom: 5px;
+    right: 20px;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    display: none;
+}
+
+.bi-cloud-arrow-up-fill {
+    font-size: 40px;
+    border: 0;
+    border-radius: 0;
+}
+
+/* Back to top button end*/
