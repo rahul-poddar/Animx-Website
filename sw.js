@@ -1,7 +1,7 @@
 self.addEventListener("install", e=> {
     e.waitUntil(
         caches.open("static").then(cache => {
-            return cache.addAll(["./","./src/master.css"],"./images/favicon/apple-touch-icon.png");
+            return cache.addAll(["./","./index.html","./css/style.css","./js/script.js","./images/logo/logo.png","./src/master.css"],);
         })
     )
 });
