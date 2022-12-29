@@ -89,7 +89,6 @@
 
 /* navbar section end */
 
-
 /* banner section start*/
 #banner {
     background-color: #fcc302;
@@ -213,6 +212,41 @@
 
 /* service section end*/
 
+/* team member section start */
+#teammember {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#teamtitle {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#teampara {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.teamdetails {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.teamlink a {
+    background-color: #fcc302;
+    border-radius: 100%;
+    padding-bottom: 5px;
+}
+
+.teamlink a:hover {
+    background-color: #daac00;
+    border-radius: 100%;
+    padding-bottom: 5px;
+}
+
+/* team member section end */
+
 /* counter section start*/
 #countersection {
     margin-top: 20px;
@@ -307,7 +341,6 @@ h3 {
 }
 
 /* blog section end */
-
 
 /* footer section start */
 #footer {
