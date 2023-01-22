@@ -383,6 +383,42 @@ h3 {
 
 /* blog section end */
 
+/* <!-- Contactus section start--> */
+
+#contactus {
+    background-color: #fcc302;
+    padding: 50px 0 40px 0;
+}
+
+#contactbtn {
+    background-color: #00bec9;
+    color: white;
+    border: 2px solid white;
+}
+
+#contactbtn:hover {
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+}
+
+#contacttitle {
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+}
+
+#contactpara {
+    font-size: 18px;
+    color: white;
+}
+
+textarea {
+    resize: none;
+}
+
+/* <!-- Contactus section end--> */
+
 /* footer section start */
 #footer {
     background-color: black;
